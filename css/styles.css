@@ -1,0 +1,72 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center the container */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px; /* Fixed width */
+    height: 500px; /* Fixed height */
+    background-color: white;
+    border: 2px solid #ccc; /* Optional: border for visibility */
+    border-radius: 10px; /* Rounded edges for the wrapper */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Full width of the wrapper */
+    padding: 20px;
+}
+
+header, aside, footer {
+    width: 80%; /* Fixed proportions inside the wrapper */
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 15px; /* Rounded edges */
+    margin: 10px 0;
+}
+
+header {
+    background-color: #a0006d;
+}
+
+.articles {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+article {
+    background-color: #f62310;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+aside {
+    background-color: #4f59ed;
+}
+
+footer {
+    background-color: orange;
+}
