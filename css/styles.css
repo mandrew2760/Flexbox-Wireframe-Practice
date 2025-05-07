@@ -8,40 +8,47 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: lightgray; /* Light gray background */
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full height to center the container */
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px; /* Fixed width */
-    height: 500px; /* Fixed height */
-    background-color: white;
-    border: 2px solid #ccc; /* Optional: border for visibility */
-    border-radius: 10px; /* Rounded edges for the wrapper */
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    border: 2px solid #ccc;
+    border-radius: 10px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%; /* Full width of the wrapper */
+    width: 500px;
     padding: 20px;
 }
 
 header, aside, footer {
-    width: 80%; /* Fixed proportions inside the wrapper */
+    width: 100px;
     padding: 20px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
-    border-radius: 15px; /* Rounded edges */
-    margin: 10px 0;
+    border-radius: 15px;
+    margin: 5px 0;
 }
 
 header {
@@ -49,9 +56,7 @@ header {
 }
 
 .articles {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
+    width: 100px;
     gap: 10px;
 }
 
@@ -60,7 +65,7 @@ article {
     color: white;
     padding: 20px;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 aside {
