@@ -41,8 +41,9 @@ section {
     padding: 20px;
 }
 
-header, aside {
-    
+aside {
+    width: 100%;
+    max-width: 500px;
     padding: 20px;
     text-align: center;
     font-size: 1em;
@@ -50,22 +51,34 @@ header, aside {
     border-radius: 10px;
 }
 footer {
-    font-size: 1em;
-    color: white;
+    width: 100%;
+    max-width: 500px;
     padding: 20px;
     text-align: center;
+    font-size: 1em;
+    color: white;
     border-radius: 10px;
 }
 
 header {
     background-color: #a0006d;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
 }
 
 article {
     background-color: #f62310;
-    color: white;
+    width: 100%;
+    max-width: 500px;
     padding: 20px;
     text-align: center;
+    font-size: 1em;
+    color: white;
     border-radius: 10px;
 }
 
